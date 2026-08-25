@@ -8,7 +8,7 @@ from functools import wraps
 # ============================================================
 #  CONFIGURATION (from environment variables)
 # ============================================================
-API_TOKEN = os.environ.get("8406324025:keIgs5YX")
+API_TOKEN = ("8406324025:keIgs5YX")
 if not API_TOKEN:
     raise RuntimeError("API_TOKEN environment variable is not set")
 
